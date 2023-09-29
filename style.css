@@ -1,0 +1,59 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+body {
+  background-image: url(./img/background_image.jpg);
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: "Bowlby One", cursive;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  color: white;
+  font-family: "Sorts Mill Goudy", serif;
+}
+.container span {
+  color: red;
+}
+
+.container {
+  margin: auto;
+  padding: auto;
+  background-color: rgba(0, 0, 0, 0.26);
+  margin: 15px 50px;
+}
+
+form {
+  margin: 0px 500px;
+  background-color: rgba(0, 0, 0, 0.664);
+  padding: 20px;
+}
+
+.form_input_box {
+  color: white;
+  padding: 4px;
+}
+
+.submit_btn {
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+  margin: 5px 75px;
+}
+
+.submit_btn:hover {
+  color: red;
+  background-color: white;
+}

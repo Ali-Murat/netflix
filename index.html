@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NETFLIX</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="./img/netflix_icon.png"
+      type="image/x-icon"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bowlby+One&family=Sorts+Mill+Goudy&display=swap"
+      rel="stylesheet"
+    />
+    l="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>NET<span>FLIX</span></h1>
+      <h3>Thank you for signing up at Netflix. Tell us more about yourself.</h3>
+
+      <form>
+        <div class="form_input_box">
+          <label for="name">NAME</label>
+          <br />
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="ENTER YOUR NAME"
+            required
+          />
+        </div>
+
+        <div class="form_input_box">
+          <label for="age">AGE</label>
+          <br />
+          <input type="age" name="age" id="age" placeholder="ENTER YOUR AGE" />
+        </div>
+
+        <div class="form_input_box">
+          <label for="email">EMAIL</label>
+          <br />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="ENTER YOUR EMAIL"
+          />
+        </div>
+
+        <div class="form_input_box">
+          <label for="dropdown">CONTENT TYPE</label>
+          <br />
+          <select id="dropdown">
+            <option value="MOVIE">MOVIE</option>
+            <option value="SERIES" selected>SERIES</option>
+          </select>
+        </div>
+
+        <div class="form_input_box">
+          <label id="checkbox">MOVIE TYPE</label>
+          <br />
+          <label for="comedy">
+            <input type="checkbox" checked />BIOGRAPHY
+          </label>
+          <br />
+          <label for="action"> <input type="checkbox" />ACTION </label>
+          <br />
+          <label for="horror"> <input type="checkbox" />HORROR </label>
+        </div>
+
+        <div class="form_input_box">
+          <label>GENDER</label>
+          <br />
+
+          <input type="radio" id="male" name="gender" value="male" />
+          <label for="">MALE</label>
+          <br />
+          <input type="radio" id="female" name="gender" value="female" />
+          <label for="">FEMALE</label>
+        </div>
+
+        <div class="form_input_box">
+          <label for="text">FEEDBACK</label>
+          <br />
+          <textarea
+            name="text"
+            id="text"
+            cols="25"
+            rows="5"
+            placeholder="Text Here"
+          ></textarea>
+        </div>
+
+        <div>
+          <input class="submit_btn" type="submit" value="send" id="submit" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
